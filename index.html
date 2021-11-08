@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Montserrat:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jovenes X El Espino</title>
+  <link href="./styles.css" rel="stylesheet" />
+  <script src="./script.js" async></script>
+</head>
+
+<header class="header">
+  <a href="" class="logo">JXE</a>
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+  <ul class="menu">
+    <li><a href="#ayudanos">Ayúdanos</a></li>
+    <li><a href="#mision">Misión y Visión</a></li>
+    <li><a href="#">Quienes Somos</a></li>
+    <li><a href="#">Mas Información</a></li>
+  </ul>
+</header>
+<br />
+<br />
+
+<body>
+  <div class="main-h1"></div>
+  <!--photo slideshow-->
+  <div class="center-img" id="content">
+    <div class="flex justify-center item-center h-96 w-full">
+      <img src="./espinodos.jpg" class="slide" alt="fotos comnunidad Espino" />
+      <img src="./espinogrupal.jpg" class="slide" alt="fotos comnunidad Espino" />
+      <img src="./espinoseñora.jpg" class="slide" alt="fotos comnunidad Espino" />
+      <img src="./espinoverde.jpg" class="slide" alt="fotos comnunidad Espino" />
+    </div>
+  </div>
+  <!--slideshow ends-->
+  <br />
+  <br />
+  <h1 class="text-center text-3xl" id="ayudanos" >JOVENES X EL ESPINO</h1>
+  <h2 class="text-center">¿Como nos puedes ayudar?</h2>
+  <!--info slider-->
+  <div class="slideshow-container">
+    <!--informacion-->
+    <div class="mySlides">
+      <p class="font-bold">Vuélvete voluntario</p>
+      <br />
+      <p>Puedes darnos tu tiempo y habilidades registrándote como voluntario.</p>
+      <br />
+      <a class="text-blue-700"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdRbAne_cLqJ6t-PNeQczFiC43HAoC9GVzBZ1g5ruwOq9eY5A/viewform?usp=send_form">Únete
+        &#8592</a>
+    </div>
+
+    <div class="mySlides">
+      <p class="font-bold">Dona</p>
+      <br />
+      <p>Nos puedes ayudar en esta gran labor donando</p>
+      <br />
+      <a class="text-blue-700"
+        href="https://www.gofundme.com/f/we-need-help-for-san-luis-talpa-communities?utm_campaign=p_cp+share-sheet&utm_medium=copy_link_all&utm_source=customer">Dona
+        Aquí &#8592</a>
+    </div>
+
+    <!-- Botones -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+  <!-- Puntos -->
+  <div class="dot-container">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+  </div>
+  <div class="pl-5 text-center">
+    <h3 class="text-2xl text-center" id="mision">NUESTRA MISIÓN Y VISIÓN</h3>
+    <p class="pl-10 text-center">Ser agentes de cambio en estos momentos de dificultad. Además, evangelizar, crecer en virtudes y
+      ayudar a los mas necesitados con nuestras distinciones e inspiraciones. Crear conciencia en nosotros y en quienes
+      nos rodean que, con nuestros valores, habilidades y principios, todos podemos ayudar a los demás y encontrar en
+      esto la felicidad.</p>
+  <br />
+    <br>
+    <q class="font-black text-5xl text-center" id="quote">No esperemos que algo cambie, hagamos el cambio nosotros</q>
+  </div>
+  <br />
+  
+</body>
+
+</html>
